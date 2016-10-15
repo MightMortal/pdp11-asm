@@ -28,7 +28,7 @@ public:
 		/* unicast   */   /*  dcast w  */   /*   jump    */   /*   other   */
 		CLRW  = 0x0A00,   MOVW  = 0x1000,   BR    = 0x0100,   JMP   = 0x0040,
 		INCW  = 0x0A80,   CMPW  = 0x2000,   BNE   = 0x0200,   JSR   = 0x0800,
-		DECW  = 0x0AC0,   BITW  = 0x3000,   BEQ   = 0x0300,   RST   = 0x0010,
+		DECW  = 0x0AC0,   BITW  = 0x3000,   BEQ   = 0x0300,   RST   = 0x0080,
 		COMW  = 0x0A40,   BICW  = 0x4000,   BPL   = 0x8000,   MARK  = 0x0D00,
 		TSTW  = 0x0BC0,   BISW  = 0x5000,   BMI   = 0x8100,   SOB   = 0x7E00,
 		NEGW  = 0x0B00,   ADD   = 0x6000,   BVC   = 0x8400,   EMT   = 0x8800,
